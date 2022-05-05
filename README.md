@@ -1,4 +1,4 @@
-# ADMsesion4
+# CovidApp
 Android App using Java
 The application will be about the incidence of COVID-19 in the Comunitat Valenciana. The
 app will allow users to check the status of the COVID-19 of the different municipalities.
