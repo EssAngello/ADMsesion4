@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ordenar_municipio"
+        android:orderInCategory="100"
+        android:title="ordenar por nombre municipio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ordenar_incidenciaacumulada"
+        android:orderInCategory="100"
+        android:title="ordenar por incidencia acumulada"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ordenar_tasadefuncion"
+        android:orderInCategory="100"
+        android:title="ordenar por tasa defunción"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ordenar_casos"
+        android:orderInCategory="100"
+        android:title="ordenar por casos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Actualizar"
+        app:showAsAction="never" />
+</menu>
